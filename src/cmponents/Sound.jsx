@@ -31,10 +31,10 @@ const Sound = () => {
           src={union}
           alt=""
         />
-
         <video
-          className="absolute md:h-[600px] lg:h-[1000px] xs:h-[400px] h-[300px] -z-10  right-0 max-md:bottom-0 mb-32 "
+          className="absolute md:h-[600px] lg:h-[1000px] h-[280px]  -z-10  right-0 max-md:bottom-0 mb-32 "
           autoPlay
+          muted
           src={video}
         ></video>
       </div>
