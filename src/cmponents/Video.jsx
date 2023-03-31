@@ -25,7 +25,7 @@ const Video = () => {
           onClick={() => setModal(false)}
           className="flex items-center justify-center fixed bg-black/50 top-0 left-0 right-0 bottom-0 z-50 "
         >
-          <div className="lg:w-[800px] md:w-[500px] xs:w-[360px] xxs:w-[360px] p-5 rounded bg-white absolute top-10 left-1/2 -translate-x-1/2 z-50">
+          <div className="lg:w-[800px] md:w-[500px] xs:w-[400px] xxs:w-[400px] p-5 rounded bg-white absolute top-10 left-1/2 -translate-x-1/2 z-50">
             <button
               onClick={() => setModal(false)}
               type="button"
