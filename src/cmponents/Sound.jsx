@@ -27,12 +27,12 @@ const Sound = () => {
           <p className="font-bold text-lg mt-10 ">30 Вт</p>
         </div>
         <img
-          className="absolute right-3 -z-10 w-[1600px] "
+          className="absolute right-3 -z-40 w-[1600px] "
           src={union}
           alt=""
         />
         <video
-          className="absolute md:h-[600px] lg:h-[1000px] h-[280px]  -z-10  right-0 max-md:bottom-0 mb-32 "
+          className="absolute md:h-[600px] lg:h-[1000px] h-[280px]  -z-40  right-0 max-md:bottom-0 mb-32 "
           autoPlay
           muted
           src={video}
